@@ -821,8 +821,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 19.999512, y: -21}
-  m_SizeDelta: {x: -40.00099, y: 42}
+  m_AnchoredPosition: {x: 20, y: -21}
+  m_SizeDelta: {x: -40, y: 42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &345061838083612788
 CanvasRenderer:
@@ -897,7 +897,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
+  m_overflowMode: 1
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
@@ -1238,6 +1238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowNameText: {fileID: 6139732655115819326}
   windowIcon: {fileID: 3805814086653862878}
+  content: {fileID: 1587102632753289090}
 --- !u!114 &4528340283591801387
 MonoBehaviour:
   m_ObjectHideFlags: 0

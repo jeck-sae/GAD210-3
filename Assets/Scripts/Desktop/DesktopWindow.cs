@@ -13,6 +13,7 @@ public class DesktopWindow : MonoBehaviour
 
     [SerializeField] TMP_Text windowNameText;
     [SerializeField] Image windowIcon;
+    [SerializeField] RectTransform content;
 
     RectTransform rectTransform;
 
@@ -26,6 +27,17 @@ public class DesktopWindow : MonoBehaviour
         GetComponent<WindowBehaviour>().Initialize(info);
     }
 
+    public void SetSize(Vector2 size)
+    {
+        float x = Mathf.Max(220, size.x + 4);
+        float y = Mathf.Max(90, size.y + 44);
+
+        rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, x);
+        rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, y);
+
+        content.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, size.x);
+        content.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, size.y);
+    }
 
     public void Close()
     {

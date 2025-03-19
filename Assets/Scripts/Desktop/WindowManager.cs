@@ -33,9 +33,9 @@ public class WindowManager : Singleton<WindowManager>
         go.transform.SetParent(windowsParent, false);
         var window = go.GetComponent<DesktopWindow>();
 
-
-
         window.Initialize(info);
+        if(info.windowSize != Vector2.zero)
+            window.SetSize(info.windowSize);
 
         openWindows.Add(window);
         OnWindowOpened?.Invoke(window);
