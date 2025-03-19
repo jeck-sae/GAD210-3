@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class DesktopWindow : MonoBehaviour
 {
-    public string WindowName => windowName;
-    string windowName;
+    public WindowInfo Info => info;
+    WindowInfo info;
+    public string WindowName => info.windowName;
     public bool IsMinimized => isMinimized;
     bool isMinimized;
 
@@ -18,8 +19,8 @@ public class DesktopWindow : MonoBehaviour
     public virtual void Initialize(WindowInfo info)
     {
         rectTransform = GetComponent<RectTransform>();
-        windowName = info.name;
-        windowNameText.text = info.name;
+        this.info = info;
+        windowNameText.text = info.windowName;
         windowIcon.sprite = info.icon;
 
         GetComponent<WindowBehaviour>().Initialize(info);
@@ -28,7 +29,7 @@ public class DesktopWindow : MonoBehaviour
 
     public void Close()
     {
-        WindowManager.Instance.CloseWindow(windowName);
+        WindowManager.Instance.CloseWindow(info.windowName);
         Destroy(gameObject);
     }
     public void Open()

@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: TextWindow
-  m_EditorClassIdentifier: Assembly-CSharp::TextWindowInfo
+  m_Script: {fileID: 11500000, guid: c9bb6a39c6498e84e99def7ae26480b8, type: 3}
+  m_Name: Test Text
+  m_EditorClassIdentifier: 
   windowName: TestText
-  icon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  canClose: 0
-  text: Textest
+  icon: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  text: Text test

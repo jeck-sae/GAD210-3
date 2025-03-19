@@ -15,6 +15,9 @@ public class WindowManager : Singleton<WindowManager>
     List<DesktopWindow> openWindows = new();
 
     [SerializeField] Transform windowsParent;
+
+    public Action<DesktopWindow> OnWindowOpened;
+    public Action<DesktopWindow> OnWindowClosed;
     
     public DesktopWindow OpenWindow(WindowInfo info)
     {
@@ -32,6 +35,7 @@ public class WindowManager : Singleton<WindowManager>
         window.Initialize(info);
 
         openWindows.Add(window);
+        OnWindowOpened?.Invoke(window);
         return window;
     }
 
@@ -44,6 +48,7 @@ public class WindowManager : Singleton<WindowManager>
     public void CloseWindow(string windowName) 
     {
         var window = openWindows.Find(x => x.WindowName == windowName);
+        OnWindowClosed?.Invoke(window);
         openWindows.Remove(window);
         Destroy(window.gameObject);
     }
