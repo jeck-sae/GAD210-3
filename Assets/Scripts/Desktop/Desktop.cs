@@ -6,7 +6,7 @@ public class Desktop : Singleton<Desktop>
 {
     public List<WindowInfo> desktopIcons = new();
 
-    private void Awake()
+    private void Start()
     {
         foreach (WindowInfo info in desktopIcons) 
         { 
