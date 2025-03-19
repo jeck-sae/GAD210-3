@@ -387,7 +387,7 @@ MonoBehaviour:
   textWindowPrefab: {fileID: 3822258627635214, guid: cc19fd5d82d288b4b866240d6c3d1645, type: 3}
   imageWindowPrefab: {fileID: 5795684606424556615, guid: 1a69adf923bf5d940a9339cb5c5e1186, type: 3}
   InputWindowPrefab: {fileID: 8165317437652285484, guid: 0e4e9487e0ccaae439aa867cafda4aa4, type: 3}
-  emailWindowPrefab: {fileID: 0}
+  emailWindowPrefab: {fileID: 485919025768114779, guid: e89a70c5f979a184fb2b886a0ed44c10, type: 3}
   discordWindowPrefab: {fileID: 0}
   folderWindowPrefab: {fileID: 5207226159320694324, guid: c6caaca94db229a479b11d03fcc031a0, type: 3}
   windowsParent: {fileID: 222874845}
@@ -410,6 +410,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 89bc2c63a60fb054ba71a55d5fad171c, type: 2}
   - {fileID: 11400000, guid: 7f7a21cfd5275924cad9a845f86f162c, type: 2}
   - {fileID: 11400000, guid: 076e1c9a8ca9108429f4d3e262b4f7b3, type: 2}
+  - {fileID: 11400000, guid: aebed41714bf4d54e8a6e23a222ed32d, type: 2}
   desktopIconList: {fileID: 1965865203}
 --- !u!1 &1460876018
 GameObject:

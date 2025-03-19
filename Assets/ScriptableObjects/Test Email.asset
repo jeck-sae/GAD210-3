@@ -12,6 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8448680328ff867429462985646a4d9b, type: 3}
   m_Name: Test Email
   m_EditorClassIdentifier: 
-  windowName: 
-  icon: {fileID: 0}
+  windowName: Email
+  icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   windowSize: {x: 0, y: 0}
+  emails:
+  - recipient: test@isthisworking.com
+    title: Email example test tile 1
+    subject: test test 1111111111111111111111111111111111
+    seen: 1
+  - recipient: newrecipient@test.com
+    title: test 2 email 2 title 2
+    subject: test test test test test test test
+    seen: 1
+  - recipient: test3@gmail.com
+    title: test 3 email
+    subject: test 3333333333333333333333333
+    seen: 1
