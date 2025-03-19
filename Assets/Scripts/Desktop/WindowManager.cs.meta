@@ -7,7 +7,7 @@ MonoImporter:
   - textWindowPrefab: {fileID: 3822258627635214, guid: cc19fd5d82d288b4b866240d6c3d1645, type: 3}
   - imageWindowPrefab: {fileID: 5795684606424556615, guid: 1a69adf923bf5d940a9339cb5c5e1186, type: 3}
   - InputWindowPrefab: {fileID: 8165317437652285484, guid: 0e4e9487e0ccaae439aa867cafda4aa4, type: 3}
-  - emailWindowPrefab: {instanceID: 0}
+  - emailWindowPrefab: {fileID: 485919025768114779, guid: e89a70c5f979a184fb2b886a0ed44c10, type: 3}
   - discordWindowPrefab: {instanceID: 0}
   - folderWindowPrefab: {fileID: 5207226159320694324, guid: c6caaca94db229a479b11d03fcc031a0, type: 3}
   - windowsParent: {instanceID: 0}
