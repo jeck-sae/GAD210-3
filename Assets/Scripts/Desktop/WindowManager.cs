@@ -7,7 +7,7 @@ public class WindowManager : Singleton<WindowManager>
 {
     public GameObject textWindowPrefab;
     public GameObject imageWindowPrefab;
-    public GameObject passwordWindowPrefab;
+    public GameObject InputWindowPrefab;
     public GameObject emailWindowPrefab;
     public GameObject discordWindowPrefab;
     public GameObject folderWindowPrefab;
@@ -21,16 +21,19 @@ public class WindowManager : Singleton<WindowManager>
     
     public DesktopWindow OpenWindow(WindowInfo info)
     {
-        if (openWindows.Any(x => x.WindowName == info.windowName))
+        var alreadyOpen = openWindows.Find(x => x.WindowName == info.windowName);
+        if (alreadyOpen != null)
         {
-            openWindows.Find(x => x.WindowName == info.windowName).Open();
-            return null;
+            alreadyOpen.Open();
+            return alreadyOpen;
         }
 
         var prefab = GetWindowPrefab(info);
         var go = Instantiate(prefab);
         go.transform.SetParent(windowsParent, false);
         var window = go.GetComponent<DesktopWindow>();
+
+
 
         window.Initialize(info);
 
@@ -60,8 +63,8 @@ public class WindowManager : Singleton<WindowManager>
             return textWindowPrefab;
         else if (info is ImageWindowInfo)
             return imageWindowPrefab;
-        else if (info is PasswordWindowInfo)
-            return passwordWindowPrefab;
+        else if (info is InputWindowInfo)
+            return InputWindowPrefab;
         else if (info is EmailWindowInfo)
             return emailWindowPrefab;
         else if (info is FolderWindowInfo)

@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b833ab9b719e1bd4291a275e0f3bd454, type: 3}
-  m_Name: Folder test
+  m_Name: Test Folder
   m_EditorClassIdentifier: 
-  windowName: 
-  icon: {fileID: 0}
-  files: []
+  windowName: folder test
+  icon: {fileID: 21300000, guid: 8d8fcd591cdad453fb3c120cb0d3f43d, type: 3}
+  files:
+  - {fileID: 11400000, guid: 89bc2c63a60fb054ba71a55d5fad171c, type: 2}
+  - {fileID: 11400000}
