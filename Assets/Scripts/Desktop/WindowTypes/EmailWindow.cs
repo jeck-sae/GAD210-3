@@ -36,7 +36,6 @@ public class EmailWindow : WindowBehaviour
         selectedEmailRecipient.text = emailInfo.recipient;
         selectedEmailSubject.text = emailInfo.subject;
 
-        emailInfo.seen = true;
         SelectedEmail?.Invoke(emailInfo);
     }
 

@@ -12,7 +12,6 @@ public class EmailPreview : MonoBehaviour
 
     EmailWindow window;
     EmailWindowInfo.EmailInfo info;
-    
     public void Initialize(EmailWindow window, EmailWindowInfo.EmailInfo info)
     {
         title.text = info.title;

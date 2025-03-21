@@ -19,12 +19,12 @@ MonoBehaviour:
   - recipient: test@isthisworking.com
     title: Email example test tile 1
     subject: test test 1111111111111111111111111111111111
-    seen: 1
+    seen: 0
   - recipient: newrecipient@test.com
     title: test 2 email 2 title 2
     subject: test test test test test test test
-    seen: 1
+    seen: 0
   - recipient: test3@gmail.com
     title: test 3 email
     subject: test 3333333333333333333333333
-    seen: 1
+    seen: 0
