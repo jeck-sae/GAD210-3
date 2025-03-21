@@ -21,12 +21,18 @@ public class LevelLoop : MonoBehaviour
                 other.transform.position = teleportTarget.position + offset;
 
                 // Preserve velocity so movement remains smooth
-                rb.linearVelocity = rb.linearVelocity;
+                Vector3 newVelocity = rb.linearVelocity;
 
                 if (turnPlayer)
                 {
                     other.transform.rotation = Quaternion.Euler(0f, other.transform.eulerAngles.y + 180f, 0f);
+
+                    // Rotate the velocity vector so movement continues
+                    newVelocity = Quaternion.Euler(0, 180f, 0) * newVelocity;
                 }
+
+                // Apply the velocity
+                rb.linearVelocity = newVelocity;
             }
         }
     }
