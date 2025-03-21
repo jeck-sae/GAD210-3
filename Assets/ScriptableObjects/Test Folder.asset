@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowName: folder test
   icon: {fileID: 21300000, guid: 8d8fcd591cdad453fb3c120cb0d3f43d, type: 3}
+  windowSize: {x: 0, y: 0}
   files:
   - {fileID: 11400000, guid: 89bc2c63a60fb054ba71a55d5fad171c, type: 2}
-  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 076e1c9a8ca9108429f4d3e262b4f7b3, type: 2}
+  - {fileID: 11400000, guid: aebed41714bf4d54e8a6e23a222ed32d, type: 2}

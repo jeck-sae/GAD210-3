@@ -2,10 +2,11 @@ using System.Runtime.InteropServices;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class SetBackgroundImage : MonoBehaviour
 {
     public RawImage RawImage;
+    public Texture2D defaultBackground;
+
     private const UInt32 SPI_GETDESKWALLPAPER = 0x73;
     private const int MAX_PATH = 260;
 
@@ -14,9 +15,26 @@ public class SetBackgroundImage : MonoBehaviour
 
     void Start()
     {
-        var tex = LoadTextureFromPath(GetCurrentDesktopWallpaperPath());
-        if (tex != null)
-            RawImage.texture = tex;
+        var path = GetCurrentDesktopWallpaperPath();
+        if (string.IsNullOrEmpty(path))
+        {
+            SetDefaultBG();
+            return;
+        }
+
+        var tex = LoadTextureFromPath(path);
+        if (tex == null)
+        {
+            SetDefaultBG();
+            return;
+        }
+        
+        RawImage.texture = tex;
+    }
+
+    private void SetDefaultBG()
+    {
+        RawImage.texture = defaultBackground;
     }
 
     private Texture2D LoadTextureFromPath(string path)
