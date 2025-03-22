@@ -4,4 +4,5 @@ using UnityEngine;
 public class SightObject : MonoBehaviour
 {
     public virtual void OnLookAt() { }
+    public virtual void OnLookAway() { }
 }

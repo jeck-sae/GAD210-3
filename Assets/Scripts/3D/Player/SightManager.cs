@@ -2,10 +2,11 @@ using UnityEngine;
 
 public class SightManager : MonoBehaviour
 {
+    [SerializeField] Transform cam;
     [SerializeField] private float maxDistance = 20f;
     [SerializeField] private LayerMask targetLayer;
 
-    private Transform lastLookedObject = null;
+    private SightObject lastsightObj = null;
 
     private void Update()
     {
@@ -15,18 +16,27 @@ public class SightManager : MonoBehaviour
     private void CheckForLookAt()
     {
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.forward, out hit, maxDistance, targetLayer))
+        if (Physics.Raycast(cam.position, cam.forward, out hit, maxDistance, targetLayer))
         {
             SightObject sightObj = hit.transform.GetComponent<SightObject>();
-            if (sightObj != null && hit.transform != lastLookedObject)
+
+            if (sightObj != null)
             {
-                lastLookedObject = hit.transform;
-                sightObj.OnLookAt(); // Trigger action
+                if (sightObj != lastsightObj)
+                {
+                    lastsightObj?.OnLookAway(); // Trigger "stop looking" on the previous object
+                    lastsightObj = sightObj;
+                    sightObj.OnLookAt(); // Trigger "start looking"
+                }
             }
         }
         else
         {
-            lastLookedObject = null;
+            if (lastsightObj != null)
+            {
+                lastsightObj.OnLookAway(); // Trigger "stop looking" when nothing is hit
+                lastsightObj = null;
+            }
         }
     }
 }
