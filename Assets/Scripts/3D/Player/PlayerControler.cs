@@ -23,6 +23,7 @@ public class PlayerControler : MonoBehaviour
     [SerializeField] bool playerCanMove = true;
     [SerializeField] float walkSpeed = 5f;
     [SerializeField] float maxVelocityChange = 10f;
+    private AudioSource footSteps;
 
     [HideInInspector] public bool isWalking = false;
 
@@ -65,6 +66,7 @@ public class PlayerControler : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        footSteps = GetComponent<AudioSource>();
         originalScale = transform.localScale;
 
         sprintRemaining = sprintDuration;
@@ -104,6 +106,15 @@ public class PlayerControler : MonoBehaviour
         Jumping();
 
         CheckGround();
+
+        if (isWalking)
+        {
+            footSteps.volume = 0.8f;
+        }
+        else
+        {
+            footSteps.volume = 0f;
+        }
     }
     private void CameraMovement()
     {

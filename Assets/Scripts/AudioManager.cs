@@ -5,7 +5,7 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     [SerializeField] AudioSource soundFXPrefab;
-    private List<AudioSource> loopSources;
+    [SerializeField] List<AudioSource> loopSources;
     [SerializeField] int maxSoundsPlaying = 25;
     private int currentSoundsPlaying = 0;
 
