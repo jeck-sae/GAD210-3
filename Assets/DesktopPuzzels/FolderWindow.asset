@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 044eaeb0be0bd9e489d059e4e0bd4514, type: 3}
-  m_Name: GreedPuzzel
+  m_Script: {fileID: 11500000, guid: b833ab9b719e1bd4291a275e0f3bd454, type: 3}
+  m_Name: FolderWindow
   m_EditorClassIdentifier: 
   windowName: 
   icon: {fileID: 0}
   windowSize: {x: 0, y: 0}
-  image: {fileID: 0}
+  files: []

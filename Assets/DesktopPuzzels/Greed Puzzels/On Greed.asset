@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9bb6a39c6498e84e99def7ae26480b8, type: 3}
+  m_Name: On Greed
+  m_EditorClassIdentifier: 
+  windowName: On Greed
+  icon: {fileID: 0}
+  windowSize: {x: 0, y: 0}
+  text: The fourth sad circle.  Ah! what woes contain,   Justice of God! what woes
+    those narrowing deeps   Contain; for all the universe down-heaps   In this pressed
+    space its continent of pain,   So voiding all that mars its peace.  But why  
+    This guilt that so degrades us?   As the  surge   Above Charybdis meets contending
+    surge,   Breaks and is broken, and rages and recoils   For ever, so here the
+    sinners.  More numerous   Than in the circles past are these.  They urge   Huge
+    weights before them.  On, with straining breasts,   They roll them, howling in
+    their ceaseless toils.
