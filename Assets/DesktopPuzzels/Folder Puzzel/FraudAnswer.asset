@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b833ab9b719e1bd4291a275e0f3bd454, type: 3}
-  m_Name: FolderWindow
+  m_Script: {fileID: 11500000, guid: c9bb6a39c6498e84e99def7ae26480b8, type: 3}
+  m_Name: FraudAnswer
   m_EditorClassIdentifier: 
   windowName: 
   icon: {fileID: 0}
   windowSize: {x: 0, y: 0}
-  files: []
+  text: 

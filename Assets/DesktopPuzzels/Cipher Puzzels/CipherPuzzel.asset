@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be363cf71164ca243b08ba29ff6aa9ac, type: 3}
-  m_Name: InputWindow
+  m_Name: CipherPuzzel
   m_EditorClassIdentifier: 
   windowName: 
   icon: {fileID: 0}
   windowSize: {x: 0, y: 0}
-  prompt: 
-  correctCode: 
-  openWindowWithCorrectCode: {fileID: 0}
+  prompt: 'Wkh flufohv ri khoo duh qrw pdqb. Ihz ohwwhuv pdnh d vlqqhu. Lq wkh hqg
+    lqilqlwb dzdlwv. '
+  correctCode: 960
+  openWindowWithCorrectCode: {fileID: 11400000, guid: 87c311ab3ffa06b4fa4c2a5c6540a256, type: 2}

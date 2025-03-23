@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be363cf71164ca243b08ba29ff6aa9ac, type: 3}
-  m_Name: CipherPuzzel
+  m_Name: FraudPuzzel
   m_EditorClassIdentifier: 
   windowName: 
   icon: {fileID: 0}
