@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9bb6a39c6498e84e99def7ae26480b8, type: 3}
   m_Name: FraudAnswer
   m_EditorClassIdentifier: 
-  windowName: 
-  icon: {fileID: 0}
+  windowName: Fate
+  icon: {fileID: 21300000, guid: a56b84f780e8aef439e9a83d60ca7420, type: 3}
   windowSize: {x: 0, y: 0}
-  text: 
+  text: 'Fraudulent conspirator, the eighth is the last for your kind. May my blood
+    rust the trenches of your palms. '

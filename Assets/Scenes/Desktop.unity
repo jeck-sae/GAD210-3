@@ -404,13 +404,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openWindowsOnStart:
-  - {fileID: 11400000, guid: 1d90074bc5215274a8d82d1fb49e56f3, type: 2}
+  - {fileID: 11400000, guid: 4b117c1e5aa66544f925dacc7088fc4c, type: 2}
   desktopIcons:
-  - {fileID: 11400000, guid: 1d90074bc5215274a8d82d1fb49e56f3, type: 2}
-  - {fileID: 11400000, guid: 89bc2c63a60fb054ba71a55d5fad171c, type: 2}
-  - {fileID: 11400000, guid: 7f7a21cfd5275924cad9a845f86f162c, type: 2}
-  - {fileID: 11400000, guid: 076e1c9a8ca9108429f4d3e262b4f7b3, type: 2}
-  - {fileID: 11400000, guid: aebed41714bf4d54e8a6e23a222ed32d, type: 2}
+  - {fileID: 11400000, guid: e735426e33e232e41987d000d9d96db0, type: 2}
+  - {fileID: 11400000, guid: 95097597067c7734e8a45e72c339d884, type: 2}
+  - {fileID: 11400000, guid: 72694b98adb8fb544879729aa851a4ed, type: 2}
+  - {fileID: 11400000, guid: c686228b30e814840a9d7fe20ee28e66, type: 2}
   desktopIconList: {fileID: 1965865203}
 --- !u!1 &1460876018
 GameObject:

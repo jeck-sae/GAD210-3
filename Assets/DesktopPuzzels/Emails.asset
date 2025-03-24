@@ -12,7 +12,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8448680328ff867429462985646a4d9b, type: 3}
   m_Name: Emails
   m_EditorClassIdentifier: 
-  windowName: 
-  icon: {fileID: 0}
+  windowName: Gmail
+  icon: {fileID: 21300000, guid: 17fa84703485d314b8d6b5216987d4b1, type: 3}
   windowSize: {x: 0, y: 0}
-  emails: []
+  emails:
+  - recipient: ' WkuhhTheIII@gmail.com  '
+    title: "The Last Stop Update \u2013 "
+    subject: 'Hello team! This is just a reminder for the meeting tomorrow. Building
+      2, room.  Please do not be late.   Best regards,  Ted.  '
+    seen: 0
+  - recipient: ' WkuhhTheIII@gmail.com  '
+    title: "How\u2019s Success ?"
+    subject: ". . . \u2013 \u2013   Brx'yh wlqwhg wkh wulqlwb Edg wklqjv lq olih
+      dozdbv kdsshq lq wkuhhv Wkh iluvw wr wkh vhdo lv wkuhh  Nqrz L'oo qhyhu irujlyh
+      brx.   . . . \u2013 \u2013  "
+    seen: 1
+  - recipient: ' WkuhhTheIII@gmail.com  '
+    title: 'Recipient Publishing Request. '
+    subject: 'Congratulations, The Last Stop is officially live!   For any questions
+      or support, please contact publisher@gmail.com '
+    seen: 1
+  - recipient: ' WkuhhTheIII@gmail.com  '
+    title: Extended Plan.
+    subject: 'So about the game idea I told you about, do you want to work on it
+      with me? You said it yourself, that it could be fun, and you''ve got your whole
+      company thingy going on. We should team up, see how it goes, even if it flops
+      let''s do it for nostalgia''s sake.  '
+    seen: 1
+  - recipient: ' WkuhhTheIII@gmail.com  '
+    title: ' Evening Meetup.'
+    subject: "Been a while, I'm in town for a week, I was wondering if you want to
+      meet up again. You\u2019re only getting this cause you changed your number
+      and didn't think to give it to me. If you\u2019re up for it, meet me at the
+      park by the bridge at 3."
+    seen: 1

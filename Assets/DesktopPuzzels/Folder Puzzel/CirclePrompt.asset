@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be363cf71164ca243b08ba29ff6aa9ac, type: 3}
   m_Name: CirclePrompt
   m_EditorClassIdentifier: 
-  windowName: 
-  icon: {fileID: 0}
+  windowName: Future
+  icon: {fileID: 21300000, guid: eddc3b652f54848828296504ee94ec04, type: 3}
   windowSize: {x: 0, y: 0}
-  prompt: ' It''s never the answer, except for all the times where it was. '
+  prompt: 'It''s never the answer, except for all the times where it was. '
   correctCode: Violence
-  openWindowWithCorrectCode: {fileID: 11400000, guid: be7d510e35dbccc4e87c7240f8e48dae, type: 2}
+  openWindowWithCorrectCode: {fileID: 11400000, guid: 06547d7f070b24941986436db9a4900d, type: 2}

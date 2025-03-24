@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: On Greed
   m_EditorClassIdentifier: 
   windowName: On Greed
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 76beef9fdae7b48468ddf07d0400a374, type: 3}
   windowSize: {x: 0, y: 0}
   text: The fourth sad circle.  Ah! what woes contain,   Justice of God! what woes
     those narrowing deeps   Contain; for all the universe down-heaps   In this pressed

@@ -15,4 +15,4 @@ MonoBehaviour:
   windowName: Test image
   icon: {fileID: 21300000, guid: 039155adb637742a997e9d56b089e95f, type: 3}
   windowSize: {x: 0, y: 0}
-  image: {fileID: 21300000, guid: 6ca8dac30112340e78d79a57c6348d72, type: 3}
+  image: {fileID: 21300000, guid: 84954b91611f5ab4d919e2cac7148257, type: 3}

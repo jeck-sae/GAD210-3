@@ -16,9 +16,9 @@ MonoBehaviour:
   icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   windowSize: {x: 0, y: 0}
   emails:
-  - recipient: test@isthisworking.com
+  - recipient: 'WkuhhTheIII@gmail.com '
     title: Email example test tile 1
-    subject: test test 1111111111111111111111111111111111
+    subject: Hello
     seen: 0
   - recipient: newrecipient@test.com
     title: test 2 email 2 title 2
@@ -28,3 +28,10 @@ MonoBehaviour:
     title: test 3 email
     subject: test 3333333333333333333333333
     seen: 0
+  - recipient: 'WkuhhTheIII@gmail.com '
+    title: Evening Meetup.
+    subject: "Been a while, i'm in town for a week, was wondering if you want to
+      meet up again. You\u2019re only getting this cause you changed your number
+      and didn't think to give it to me. If you\u2019re up for it, meet me at the
+      park by the bridge at 3. "
+    seen: 1

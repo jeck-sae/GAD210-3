@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b833ab9b719e1bd4291a275e0f3bd454, type: 3}
   m_Name: Violence
   m_EditorClassIdentifier: 
-  windowName: 
-  icon: {fileID: 0}
+  windowName: Violence
+  icon: {fileID: 21300000, guid: 76beef9fdae7b48468ddf07d0400a374, type: 3}
   windowSize: {x: 0, y: 0}
-  files: []
+  files:
+  - {fileID: 11400000, guid: f6ac1b1503654fc4d905d13ab2cd5f3d, type: 2}
+  - {fileID: 11400000, guid: d4015bf9b3cf0e749bcc4c243f77a957, type: 2}
+  - {fileID: 11400000, guid: bd05120b898341341bd78e60761b1fa3, type: 2}

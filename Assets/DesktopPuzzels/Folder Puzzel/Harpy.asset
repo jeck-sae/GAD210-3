@@ -12,7 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9bb6a39c6498e84e99def7ae26480b8, type: 3}
   m_Name: Harpy
   m_EditorClassIdentifier: 
-  windowName: 
-  icon: {fileID: 0}
+  windowName: Harpy
+  icon: {fileID: 21300000, guid: 76beef9fdae7b48468ddf07d0400a374, type: 3}
   windowSize: {x: 0, y: 0}
-  text: 
+  text: When departs The fierce soul from the body, by itself Thence torn asunder,
+    to the seventh gulf By Minos doom'd, into the wood it falls, No place assign'd,
+    but wheresoever chance Hurls it, there sprouting, as a grain of spelt, It rises
+    to a sapling, growing thence A savage plant.  The Harpies, on its leaves Then
+    feeding, cause both pain and for the pain A vent to grief.  We, as the rest,
+    shall come For our own spoils, yet not so that with them We may again be clad;
+    for what a man Takes from himself it is not just he have. Here we perforce shall
+    drag them; and throughout The dismal glade our bodies shall be hung, Each on
+    the wild thorn of his wretched shade.

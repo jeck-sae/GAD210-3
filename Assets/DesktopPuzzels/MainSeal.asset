@@ -15,6 +15,6 @@ MonoBehaviour:
   windowName: 
   icon: {fileID: 0}
   windowSize: {x: 0, y: 0}
-  prompt: 
-  correctCode: 
-  openWindowWithCorrectCode: {fileID: 0}
+  prompt: Go Forth.
+  correctCode: 348
+  openWindowWithCorrectCode: {fileID: 11400000, guid: 8a7e3650df0c9714aa7b20d23cfcafc7, type: 2}

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be363cf71164ca243b08ba29ff6aa9ac, type: 3}
   m_Name: CipherPuzzel
   m_EditorClassIdentifier: 
-  windowName: 
-  icon: {fileID: 0}
+  windowName: .
+  icon: {fileID: 21300000, guid: ec23e33668eecff4aaec16f735dcc204, type: 3}
   windowSize: {x: 0, y: 0}
   prompt: 'Wkh flufohv ri khoo duh qrw pdqb. Ihz ohwwhuv pdnh d vlqqhu. Lq wkh hqg
     lqilqlwb dzdlwv. '
