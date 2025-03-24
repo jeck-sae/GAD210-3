@@ -14,8 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowName: .
   icon: {fileID: 21300000, guid: ec23e33668eecff4aaec16f735dcc204, type: 3}
+  canClose: 1
   windowSize: {x: 0, y: 0}
   prompt: 'Wkh flufohv ri khoo duh qrw pdqb. Ihz ohwwhuv pdnh d vlqqhu. Lq wkh hqg
     lqilqlwb dzdlwv. '
   correctCode: 960
+  closeWindowOnEnterCorrectCode: 1
   openWindowWithCorrectCode: {fileID: 11400000, guid: 87c311ab3ffa06b4fa4c2a5c6540a256, type: 2}
+  loadSceneOnCorrectCode: 

@@ -1,6 +1,7 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InputWindow : WindowBehaviour
 {
@@ -33,8 +34,16 @@ public class InputWindow : WindowBehaviour
 
         if (!string.IsNullOrEmpty(info.correctCode) && info.correctCode == text)
         {
-            WindowManager.Instance.OpenWindow(info.openWindowWithCorrectCode);
-            WindowManager.Instance.CloseWindow(info.windowName);
+            if(!string.IsNullOrEmpty(info.loadSceneOnCorrectCode))
+                SceneManager.LoadScene(info.loadSceneOnCorrectCode);
+            
+            if(info.openWindowWithCorrectCode)
+                WindowManager.Instance.OpenWindow(info.openWindowWithCorrectCode);
+            
+            if(info.closeWindowOnEnterCorrectCode)
+                WindowManager.Instance.CloseWindow(info.windowName, true);
+            
+            ClearInputField();
         }
     }
 

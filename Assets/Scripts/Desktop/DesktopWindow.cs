@@ -13,6 +13,7 @@ public class DesktopWindow : MonoBehaviour
 
     [SerializeField] TMP_Text windowNameText;
     [SerializeField] Image windowIcon;
+    [SerializeField] Button closeButton;
     [SerializeField] RectTransform content;
 
     RectTransform rectTransform;
@@ -23,6 +24,7 @@ public class DesktopWindow : MonoBehaviour
         this.info = info;
         windowNameText.text = info.windowName;
         windowIcon.sprite = info.icon;
+        closeButton.interactable = info.canClose;
 
         GetComponent<WindowBehaviour>().Initialize(info);
     }
@@ -42,7 +44,6 @@ public class DesktopWindow : MonoBehaviour
     public void Close()
     {
         WindowManager.Instance.CloseWindow(info.windowName);
-        Destroy(gameObject);
     }
     public void Open()
     {

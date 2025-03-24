@@ -48,9 +48,12 @@ public class WindowManager : Singleton<WindowManager>
         window.transform.SetSiblingIndex(windowsParent.childCount);
     }
 
-    public void CloseWindow(string windowName) 
+    public void CloseWindow(string windowName, bool force = false) 
     {
         var window = openWindows.Find(x => x.WindowName == windowName);
+        if (!force && !window.Info.canClose)
+            return;
+
         OnWindowClosed?.Invoke(window);
         openWindows.Remove(window);
         Destroy(window.gameObject);
