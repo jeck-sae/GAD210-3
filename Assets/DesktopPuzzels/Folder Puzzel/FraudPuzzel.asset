@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be363cf71164ca243b08ba29ff6aa9ac, type: 3}
   m_Name: FraudPuzzel
   m_EditorClassIdentifier: 
-  windowName: Sin
+  windowName: Sin.txt
   icon: {fileID: 21300000, guid: 76beef9fdae7b48468ddf07d0400a374, type: 3}
+  canClose: 1
   windowSize: {x: 0, y: 0}
   prompt: 'Your sin dwells beyond the seventh. Confess. '
   correctCode: Fraud
+  closeWindowOnEnterCorrectCode: 1
   openWindowWithCorrectCode: {fileID: 11400000, guid: 96e0dbe8457382347b52271bfb418f57, type: 2}
+  loadSceneOnCorrectCode: 

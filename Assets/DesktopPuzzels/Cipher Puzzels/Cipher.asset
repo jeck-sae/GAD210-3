@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 044eaeb0be0bd9e489d059e4e0bd4514, type: 3}
   m_Name: Cipher
   m_EditorClassIdentifier: 
-  windowName: Cipher
+  windowName: Cipher.png
   icon: {fileID: 21300000, guid: 2e0cf451cb3d56742aad87ea75993209, type: 3}
+  canClose: 1
   windowSize: {x: 0, y: 0}
   image: {fileID: 21300000, guid: 84954b91611f5ab4d919e2cac7148257, type: 3}

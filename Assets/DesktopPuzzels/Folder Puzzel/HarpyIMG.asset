@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 044eaeb0be0bd9e489d059e4e0bd4514, type: 3}
   m_Name: HarpyIMG
   m_EditorClassIdentifier: 
-  windowName: The Woods
+  windowName: The Woods.png
   icon: {fileID: 21300000, guid: 76beef9fdae7b48468ddf07d0400a374, type: 3}
+  canClose: 1
   windowSize: {x: 0, y: 0}
   image: {fileID: 21300000, guid: aa7f1ee47ee9e634493576a594109f1b, type: 3}
