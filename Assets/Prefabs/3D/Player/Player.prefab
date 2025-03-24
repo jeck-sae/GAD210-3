@@ -302,7 +302,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5070294071192556250}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -459,6 +459,7 @@ GameObject:
   - component: {fileID: 1696954084585322304}
   - component: {fileID: 9193310597931062385}
   - component: {fileID: 5646705461391195014}
+  - component: {fileID: 5247778576004471414}
   - component: {fileID: 7517091777437325401}
   - component: {fileID: 6149284959392551408}
   - component: {fileID: 9022662700353968953}
@@ -538,6 +539,20 @@ MonoBehaviour:
   crouchKey: 306
   crouchHeight: 0.75
   speedReduction: 0.5
+--- !u!114 &5247778576004471414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5957105676167041740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 796854beb3963d3449d5880cc340051f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallThresholdY: -50
+  respawnPosition: {fileID: 0}
 --- !u!136 &7517091777437325401
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -799,7 +814,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 3
+  far clip plane: 3.5
   field of view: 60.000004
   orthographic: 0
   orthographic size: 5
