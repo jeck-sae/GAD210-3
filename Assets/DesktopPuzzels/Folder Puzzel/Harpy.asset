@@ -15,7 +15,7 @@ MonoBehaviour:
   windowName: Harpy.txt
   icon: {fileID: 21300000, guid: 76beef9fdae7b48468ddf07d0400a374, type: 3}
   canClose: 1
-  windowSize: {x: 0, y: 0}
+  windowSize: {x: 640, y: 360}
   text: When departs The fierce soul from the body, by itself Thence torn asunder,
     to the seventh gulf By Minos doom'd, into the wood it falls, No place assign'd,
     but wheresoever chance Hurls it, there sprouting, as a grain of spelt, It rises
