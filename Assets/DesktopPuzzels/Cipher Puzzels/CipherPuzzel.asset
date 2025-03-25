@@ -16,8 +16,8 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: ec23e33668eecff4aaec16f735dcc204, type: 3}
   canClose: 1
   windowSize: {x: 0, y: 0}
-  prompt: 'The flufohv of khoo are not many. Few ohwwhuv make a vlqqhu. In the end
-    lqilqlwb awaits.  '
+  prompt: 'The circles of hell are not many. Few letters make a sinner. In the end
+    infinity awaits. '
   correctCode: 960
   closeWindowOnEnterCorrectCode: 1
   openWindowWithCorrectCode: {fileID: 11400000, guid: 87c311ab3ffa06b4fa4c2a5c6540a256, type: 2}
