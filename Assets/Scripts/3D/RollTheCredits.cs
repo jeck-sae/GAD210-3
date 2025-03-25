@@ -29,5 +29,10 @@ public class RollTheCredits : MonoBehaviour
     private void Delay()
     {
         Fader.Instance.FadeForever(0.05f);
+        Invoke("SuperDelay", 5f);
+    }
+    private void SuperDelay()
+    {
+        Application.Quit();
     }
 }
