@@ -14,21 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowName: Gmail
   icon: {fileID: 21300000, guid: 17fa84703485d314b8d6b5216987d4b1, type: 3}
+  canClose: 1
   windowSize: {x: 0, y: 0}
   emails:
   - recipient: ' WkuhhTheIII@gmail.com  '
-    title: "The Last Stop Update \u2013 "
+    title: 'The Last Stop Update '
     subject: 'Hello team! This is just a reminder for the meeting tomorrow. Building
-      2, room.  Please do not be late.   Best regards,  Ted.  '
+      3, room 3.  Please do not be late.   Best regards,  Ted.  '
     seen: 0
   - recipient: ' WkuhhTheIII@gmail.com  '
     title: "How\u2019s Success ?"
-    subject: ". . . \u2013 \u2013   Brx'yh wlqwhg wkh wulqlwb Edg wklqjv lq olih
-      dozdbv kdsshq lq wkuhhv Wkh iluvw wr wkh vhdo lv wkuhh  Nqrz L'oo qhyhu irujlyh
-      brx.   . . . \u2013 \u2013  "
+    subject: " . . . \u2013 \u2013   You've wdlqwhg the wulqlwb. Bad things in life
+      always happen in wkuhhv. The first to the seal is wkuhh . Know I'll never irujlyh
+      brx.   . . . \u2013 \u2013   "
     seen: 1
   - recipient: ' WkuhhTheIII@gmail.com  '
-    title: 'Recipient Publishing Request. '
+    title: 'Recipient Publishing. '
     subject: 'Congratulations, The Last Stop is officially live!   For any questions
       or support, please contact publisher@gmail.com '
     seen: 1
@@ -40,7 +41,7 @@ MonoBehaviour:
       let''s do it for nostalgia''s sake.  '
     seen: 1
   - recipient: ' WkuhhTheIII@gmail.com  '
-    title: ' Evening Meetup.'
+    title: Evening Meetup.
     subject: "Been a while, I'm in town for a week, I was wondering if you want to
       meet up again. You\u2019re only getting this cause you changed your number
       and didn't think to give it to me. If you\u2019re up for it, meet me at the

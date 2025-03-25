@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be363cf71164ca243b08ba29ff6aa9ac, type: 3}
   m_Name: MainSeal
   m_EditorClassIdentifier: 
-  windowName: 
+  windowName: The Seal
   icon: {fileID: 0}
   canClose: 0
   windowSize: {x: 0, y: 0}
-  prompt: Go Forth.
+  prompt: 'Three numerals unlock your fate. '
   correctCode: 348
   closeWindowOnEnterCorrectCode: 0
   openWindowWithCorrectCode: {fileID: 0}

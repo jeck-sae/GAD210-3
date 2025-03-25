@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be363cf71164ca243b08ba29ff6aa9ac, type: 3}
   m_Name: CirclePrompt
   m_EditorClassIdentifier: 
-  windowName: Future.txt
+  windowName: The Seventh.txt
   icon: {fileID: 21300000, guid: eddc3b652f54848828296504ee94ec04, type: 3}
   canClose: 1
   windowSize: {x: 0, y: 0}

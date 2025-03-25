@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b833ab9b719e1bd4291a275e0f3bd454, type: 3}
   m_Name: Violence
   m_EditorClassIdentifier: 
-  windowName: Violence.file
+  windowName: The Seventh Circle.file
   icon: {fileID: 21300000, guid: 76beef9fdae7b48468ddf07d0400a374, type: 3}
   canClose: 1
   windowSize: {x: 0, y: 0}
