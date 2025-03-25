@@ -20,4 +20,4 @@ MonoBehaviour:
   correctCode: 348
   closeWindowOnEnterCorrectCode: 0
   openWindowWithCorrectCode: {fileID: 0}
-  loadSceneOnCorrectCode: SampleScene
+  loadSceneOnCorrectCode: 3D
