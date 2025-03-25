@@ -93,7 +93,7 @@ public class AudioManager : MonoBehaviour
     }
     public void StopAllLoopSources(float fadeDuration = 1f)
     {
-        FadeOutAllLoopSources(fadeDuration);
+        StartCoroutine(FadeOutAllLoopSources(fadeDuration));
     }
     public IEnumerator FadeOutAllLoopSources(float duration)
     {
